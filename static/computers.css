@@ -1,0 +1,11 @@
+.tab{
+    display: inline;
+}
+.tab:active{
+    background-color: rgb(197, 190, 190);
+    border-radius: 5px;
+    color: white;
+}
+table{
+    border-spacing: 20px;
+}

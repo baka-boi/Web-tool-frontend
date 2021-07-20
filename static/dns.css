@@ -1,0 +1,31 @@
+
+.login-form{
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+.login-btn{
+    width: 100%;
+}
+.form-check{
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+}
+label {
+    width: 100%;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: rgb(159, 161, 161);
+}
+.form-check-input {
+    visibility:hidden;
+}
+input:checked + label {
+    background:rgb(159, 161, 161);
+    border-radius: 8px;
+    color: white;
+}
